@@ -1,0 +1,43 @@
+* {
+    background: #1a1a1a;
+    color: #cacaca;
+}
+.webnav {
+    display: flex;
+}
+.webnav-left {
+    width: 33.33333%;
+}
+.webnav-center {
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover {
+    color: #4C5BD8;
+}
+.webnav-right {
+    width: 33.33333%;
+}
+h2 {
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 1rem 1rem 0 5rem;
+}
+p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0 1rem 0 5rem;
+    text-align: justify;
+    padding-right: 150px;
+}
